@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ssh-keyscan github.com)",
+      "Bash(git push *)"
+    ]
+  }
+}
