@@ -1,8 +1,15 @@
 {
   "permissions": {
     "allow": [
-      "Bash(ssh-keyscan github.com)",
-      "Bash(git push *)"
+      "Bash(git *)",
+      "Bash(curl *)",
+      "Bash(netstat *)",
+      "Bash(reg query *)",
+      "Bash(tasklist *)",
+      "Bash(cat *)",
+      "Bash(echo *)",
+      "Bash(env *)",
+      "Bash(for *)"
     ]
   }
 }
