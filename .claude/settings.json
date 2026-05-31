@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git *)",
+      "Bash(curl *)",
+      "Bash(curl.exe *)",
+      "Bash(Select-String *)",
+      "Bash(ForEach-Object *)",
+      "Bash(Out-File *)",
+      "Bash(Out-String *)"
+    ]
+  }
+}

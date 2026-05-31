@@ -3,13 +3,20 @@
     "allow": [
       "Bash(git *)",
       "Bash(curl *)",
+      "Bash(curl.exe *)",
+      "Bash(Get-Content *)",
+      "Bash(Select-String *)",
+      "Bash(Out-File *)",
+      "Bash(Out-String *)",
+      "Bash(ForEach-Object *)",
       "Bash(netstat *)",
       "Bash(reg query *)",
       "Bash(tasklist *)",
       "Bash(cat *)",
       "Bash(echo *)",
       "Bash(env *)",
-      "Bash(for *)"
+      "Bash(for *)",
+      "PowerShell(Select-String -Path \"$env:TEMP\\\\ch100.html\" -Pattern '第100章|战争|发起|永囚之井|李达伦|魔物' -Context 1,1)"
     ]
   }
 }
